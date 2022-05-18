@@ -1,5 +1,5 @@
 {
-  "name": "rand-utils",
+  "name": "@buff-beacon-project/rand-utils",
   "version": "0.0.1",
   "description": "Tools for consuming public randomness sources",
   "scripts": {
