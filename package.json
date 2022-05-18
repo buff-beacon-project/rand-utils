@@ -1,6 +1,6 @@
 {
   "name": "rand-utils",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Tools for consuming public randomness sources",
   "scripts": {
     "build": "webpack --mode=production && npm run test",
