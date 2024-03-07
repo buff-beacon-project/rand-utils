@@ -26,4 +26,9 @@ describe('BitReader', () => {
     reader.applyShuffle(arr)
     expect(arr).not.toEqual([0, 1, 2, 3, 4, 5, 6, 7])
   })
+
+  test('create from Uint8Array', async () => {
+    const reader = BitReader.from(new Uint8Array([0, 1, 2, 3, 4, 5, 6, 7]))
+    expect(reader).toBeInstanceOf(BitReader)
+  })
 })

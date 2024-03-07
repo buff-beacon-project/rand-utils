@@ -15,7 +15,7 @@ export class BitReader {
   /**
    * Create a BitReader
    */
-  static from(arr: ArrayBuffer | DataView | Buffer){
+  static from(arr: ArrayBuffer | DataView | Buffer | ArrayBufferView){
     const buffer = arr instanceof ArrayBuffer ? arr : arr.buffer
     const a = new DataView(buffer)
     return new BitReader(a.buffer)
