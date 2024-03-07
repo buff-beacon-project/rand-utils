@@ -53,7 +53,7 @@ declare class BitReader {
     /**
      * Create a BitReader
      */
-    static from(arr: ArrayBuffer | DataView | Buffer): BitReader;
+    static from(arr: ArrayBuffer | DataView | Buffer | ArrayBufferView): BitReader;
     /**
      * Create a BitReader from an ArrayBuffer
      */

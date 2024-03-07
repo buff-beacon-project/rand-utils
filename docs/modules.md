@@ -39,7 +39,7 @@ as few bits as possible to achieve this.
 
 #### Defined in
 
-[random.ts:11](https://github.com/buff-beacon-project/rand-utils/blob/9ac60d2/src/random.ts#L11)
+[random.ts:11](https://github.com/buff-beacon-project/rand-utils/blob/8db250d/src/random.ts#L11)
 
 ___
 
@@ -63,7 +63,7 @@ the size of the returned seed array + 1
 
 #### Defined in
 
-[shuffle.ts:10](https://github.com/buff-beacon-project/rand-utils/blob/9ac60d2/src/shuffle.ts#L10)
+[shuffle.ts:10](https://github.com/buff-beacon-project/rand-utils/blob/8db250d/src/shuffle.ts#L10)
 
 ___
 
@@ -90,7 +90,7 @@ Get a shuffled copy of provided array using the given shuffle seed.
 
 #### Defined in
 
-[shuffle.ts:45](https://github.com/buff-beacon-project/rand-utils/blob/9ac60d2/src/shuffle.ts#L45)
+[shuffle.ts:45](https://github.com/buff-beacon-project/rand-utils/blob/8db250d/src/shuffle.ts#L45)
 
 ___
 
@@ -117,7 +117,7 @@ Shuffle provided array **in place** using the given shuffle seed.
 
 #### Defined in
 
-[shuffle.ts:26](https://github.com/buff-beacon-project/rand-utils/blob/9ac60d2/src/shuffle.ts#L26)
+[shuffle.ts:26](https://github.com/buff-beacon-project/rand-utils/blob/8db250d/src/shuffle.ts#L26)
 
 ___
 
@@ -154,4 +154,4 @@ Array.from(unfoldBitstream((bs, i) => bs.readBits(8)))
 
 #### Defined in
 
-[util.ts:12](https://github.com/buff-beacon-project/rand-utils/blob/9ac60d2/src/util.ts#L12)
+[util.ts:12](https://github.com/buff-beacon-project/rand-utils/blob/8db250d/src/util.ts#L12)
