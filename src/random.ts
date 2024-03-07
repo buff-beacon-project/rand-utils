@@ -1,13 +1,14 @@
+import { BitStream } from 'bit-buffer'
 
 /**
  * Get an unbiased "random" number within the range `[0, s)`. The "random"
  * values are read from the provided bitStream. The function attempts to read
  * as few bits as possible to achieve this.
- * @param {Number} s Upper bound (exclusive)
- * @param {BitStream} bitStream
- * @returns {Number}
+ *
+ * @param s Upper bound (exclusive)
+ * @param bitStream BitStream to read from
  */
-export function boundedRandom(s, bitStream) {
+export function boundedRandom(s: number, bitStream: BitStream) {
   // https://arxiv.org/abs/1805.10941
   // https://lemire.me/blog/2016/06/30/fast-random-shuffling/
   if (s < 0 || s % 1 !== 0) { throw new Error('Value must be a positive integer >= 2') }

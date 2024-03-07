@@ -1,3 +1,5 @@
+@buff-beacon-project/rand-utils / [Exports](modules.md)
+
 # rand-utils
 
 A set of utilities to make it easier to use random bit buffers.

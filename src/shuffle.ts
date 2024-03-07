@@ -1,32 +1,29 @@
-import { iterBitStream } from './util.js'
-import { boundedRandom } from './random.js'
+import { unfoldBitstream } from './util'
+import { boundedRandom } from './random'
+import { BitStream } from 'bit-buffer'
 
 /**
  * Return an array fully filled with bounded random values appropriate
  * to shuffle a list. The maximum sized list that can be shuffled is
  * the size of the returned seed array + 1
- * @param {BitStream} bitStream
- * @returns {Array}
  */
-export const getShuffleSeed = (bitStream) => {
+export const getShuffleSeed = (bitStream: BitStream) => {
   return Array.from(
-    iterBitStream((s) => boundedRandom(s + 2, bitStream))
+    unfoldBitstream(bitStream, (bs, s) => boundedRandom(s + 2, bs))
   )
 }
 
-const arraySwap = (arr, i, j) => {
+const arraySwap = (arr: any[], i: number, j: number) => {
   if (i === j) { return }
   [arr[i], arr[j]] = [arr[j], arr[i]]
 }
 
 /**
  * Shuffle provided array **in place** using the given shuffle seed.
+ *
  * @see {@link getShuffleSeed}
- * @param {Array} array
- * @param {Array} shuffleSeed
- * @returns {Array}
  */
-export function shuffleSelf(array, shuffleSeed) {
+export function shuffleSelf(array: any[], shuffleSeed: number[]) {
   const size = array.length
   if (!size) { return array }
   if (size > shuffleSeed.length + 1) {
@@ -42,11 +39,9 @@ export function shuffleSelf(array, shuffleSeed) {
 
 /**
  * Get a shuffled copy of provided array using the given shuffle seed.
+ *
  * @see {@link getShuffleSeed}
- * @param {Array} array
- * @param {Array} shuffleSeed
- * @returns {Array}
  */
-export function shuffle(array, shuffleSeed) {
+export function shuffle(array: any[], shuffleSeed: number[]) {
   return shuffleSelf(array.slice(), shuffleSeed)
 }
