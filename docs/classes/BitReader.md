@@ -52,7 +52,7 @@ Create a BitReader from an ArrayBuffer
 
 #### Defined in
 
-bit-reader.ts:27
+[bit-reader.ts:27](https://github.com/buff-beacon-project/rand-utils/blob/9ac60d2/src/bit-reader.ts#L27)
 
 ## Accessors
 
@@ -70,7 +70,7 @@ The maximum length of list this instance can shuffle.
 
 #### Defined in
 
-bit-reader.ts:51
+[bit-reader.ts:51](https://github.com/buff-beacon-project/rand-utils/blob/9ac60d2/src/bit-reader.ts#L51)
 
 ___
 
@@ -88,7 +88,7 @@ The shuffleSeed for the data.
 
 #### Defined in
 
-bit-reader.ts:39
+[bit-reader.ts:39](https://github.com/buff-beacon-project/rand-utils/blob/9ac60d2/src/bit-reader.ts#L39)
 
 ## Methods
 
@@ -110,7 +110,7 @@ Shuffle the provided array in place, modifying it.
 
 #### Defined in
 
-bit-reader.ts:90
+[bit-reader.ts:90](https://github.com/buff-beacon-project/rand-utils/blob/9ac60d2/src/bit-reader.ts#L90)
 
 ___
 
@@ -133,7 +133,7 @@ Get a DataView of the bits.
 
 #### Defined in
 
-bit-reader.ts:58
+[bit-reader.ts:58](https://github.com/buff-beacon-project/rand-utils/blob/9ac60d2/src/bit-reader.ts#L58)
 
 ___
 
@@ -155,7 +155,7 @@ Return a shuffled copy of provided array.
 
 #### Defined in
 
-bit-reader.ts:83
+[bit-reader.ts:83](https://github.com/buff-beacon-project/rand-utils/blob/9ac60d2/src/bit-reader.ts#L83)
 
 ___
 
@@ -175,7 +175,7 @@ Get a BitStream of this data.
 
 #### Defined in
 
-bit-reader.ts:67
+[bit-reader.ts:67](https://github.com/buff-beacon-project/rand-utils/blob/9ac60d2/src/bit-reader.ts#L67)
 
 ___
 
@@ -209,7 +209,7 @@ const toggles = Array.from(reader.unfold((stream) => stream.readBoolean()))
 
 #### Defined in
 
-bit-reader.ts:105
+[bit-reader.ts:105](https://github.com/buff-beacon-project/rand-utils/blob/9ac60d2/src/bit-reader.ts#L105)
 
 ___
 
@@ -229,7 +229,7 @@ Get a BitView of this data.
 
 #### Defined in
 
-bit-reader.ts:76
+[bit-reader.ts:76](https://github.com/buff-beacon-project/rand-utils/blob/9ac60d2/src/bit-reader.ts#L76)
 
 ___
 
@@ -251,4 +251,4 @@ Create a BitReader
 
 #### Defined in
 
-bit-reader.ts:18
+[bit-reader.ts:18](https://github.com/buff-beacon-project/rand-utils/blob/9ac60d2/src/bit-reader.ts#L18)
