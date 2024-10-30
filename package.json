@@ -41,7 +41,7 @@
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
-    "docs": "typedoc --out docs --exclude *.test.ts --plugin typedoc-plugin-markdown src",
+    "docs": "typedoc src",
     "prepublishOnly": "bun run build && bun run docs",
     "release": "bunx bumpp --no-push"
   },
@@ -50,9 +50,9 @@
   },
   "devDependencies": {
     "bun-types": "latest",
-    "tsup": "^7.2.0",
-    "typedoc": "^0.25.11",
-    "typedoc-plugin-markdown": "^3.17.1",
+    "tsup": "^8.3.0",
+    "typedoc": "^0.26.10",
+    "typedoc-plugin-markdown": "^4.2.9",
     "typescript": "^5.4.2"
   }
 }

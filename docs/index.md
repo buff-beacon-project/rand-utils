@@ -1,20 +1,12 @@
-@buff-beacon-project/rand-utils / [Exports](modules.md)
+**@buff-beacon-project/rand-utils** • **Docs**
 
-# rand-utils
+***
 
-A set of utilities to make it easier to use random bit buffers.
-
-Made for the [CURBy Project](https://random.colorado.edu)
-
-## Installation
-
-```sh
-npm install @buff-beacon-project/rand-utils
-```
+# @buff-beacon-project/rand-utils
 
 ## Example
 
-```js
+```ts
 import { BitReader } from '@buff-beacon-project/rand-utils'
 import { randomBytes } from 'crypto'
 
@@ -31,6 +23,14 @@ const arr = [0, 1, 2, 3, 4, 5, 6, 7]
 const shuffled = reader.shuffled(arr)
 ```
 
-## Documentation
+## Classes
 
-Found in the [docs/](./docs) folder.
+- [BitReader](classes/BitReader.md)
+
+## Functions
+
+- [boundedRandom](functions/boundedRandom.md)
+- [getShuffleSeed](functions/getShuffleSeed.md)
+- [shuffle](functions/shuffle.md)
+- [shuffleSelf](functions/shuffleSelf.md)
+- [unfoldBitstream](functions/unfoldBitstream.md)
