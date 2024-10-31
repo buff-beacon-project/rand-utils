@@ -1,4 +1,5 @@
 # rand-utils
+[![npm](https://img.shields.io/npm/v/@buff-beacon-project/rand-utils.svg)](https://www.npmjs.com/package/@buff-beacon-project/rand-utils) [![build status](https://github.com/buff-beacon-project/rand-utils/actions/workflows/release-please.yml/badge.svg?branch=main)](https://github.com/buff-beacon-project/rand-utils/actions/workflows/ci.yml)
 
 A set of utilities to make it easier to use random bit buffers.
 
