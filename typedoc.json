@@ -13,9 +13,11 @@
     "invalidLink": true,
     "notDocumented": true
   },
+  "includeVersion": true,
   "readme": "none",
   "entryFileName": "README.md",
   "out": "./docs/",
   "exclude": ["*.test.ts"],
   "plugin": ["typedoc-plugin-markdown"],
+  "indexFormat": "table"
 }

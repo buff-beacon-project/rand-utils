@@ -4,7 +4,10 @@ import { BitStream } from 'bit-buffer'
 
 /**
  * Return an array fully filled with bounded random values appropriate
- * to shuffle a list. The maximum sized list that can be shuffled is
+ * to shuffle a list.
+ *
+ * Intended to be used with {@link shuffleSelf} or {@link shuffle}.
+ * The maximum sized list that can be shuffled is
  * the size of the returned seed array + 1
  */
 export const getShuffleSeed = (bitStream: BitStream) => {

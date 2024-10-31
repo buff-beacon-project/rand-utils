@@ -3,7 +3,8 @@ import { getShuffleSeed, shuffle, shuffleSelf } from './shuffle'
 import { BitStream, BitView } from 'bit-buffer'
 
 /**
- * Helper class to read bits from pulse value.
+ * Helper class to read bits from an ArrayBuffer.
+ *
  * **Note**: it is recommended to use `BitReader.from()`
  * @see {@link BitReader.from}
  * @param {ArrayBuffer} buffer

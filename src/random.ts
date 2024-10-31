@@ -1,8 +1,12 @@
 import { BitStream } from 'bit-buffer'
 
 /**
- * Get an unbiased "random" number within the range `[0, s)`. The "random"
- * values are read from the provided bitStream. The function attempts to read
+ * Get an unbiased "random" number within the range `[0, s)` from
+ * a bitStream.
+ *
+ * The "random"
+ * values are read from the provided bitStream.
+ * The function attempts to read
  * as few bits as possible to achieve this.
  *
  * @param s Upper bound (exclusive)
