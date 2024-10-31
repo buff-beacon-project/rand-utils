@@ -1,12 +1,13 @@
-[**@buff-beacon-project/rand-utils**](../README.md) • **Docs**
+[**@buff-beacon-project/rand-utils v1.0.0**](../README.md) • **Docs**
 
 ***
 
-[@buff-beacon-project/rand-utils](../README.md) / BitReader
+[@buff-beacon-project/rand-utils v1.0.0](../README.md) / BitReader
 
 # Class: BitReader
 
-Helper class to read bits from pulse value.
+Helper class to read bits from an ArrayBuffer.
+
 **Note**: it is recommended to use `BitReader.from()`
 
 ## See
@@ -33,7 +34,7 @@ Create a BitReader from an ArrayBuffer
 
 #### Defined in
 
-[bit-reader.ts:27](https://github.com/buff-beacon-project/rand-utils/blob/c38a827b147d84a01d6ae6faa071e6ae0f7daca1/src/bit-reader.ts#L27)
+[bit-reader.ts:28](https://github.com/buff-beacon-project/rand-utils/blob/513262d1ea7e1e9191092f47cb72185f50754e7b/src/bit-reader.ts#L28)
 
 ## Accessors
 
@@ -51,7 +52,7 @@ The maximum length of list this instance can shuffle.
 
 #### Defined in
 
-[bit-reader.ts:51](https://github.com/buff-beacon-project/rand-utils/blob/c38a827b147d84a01d6ae6faa071e6ae0f7daca1/src/bit-reader.ts#L51)
+[bit-reader.ts:52](https://github.com/buff-beacon-project/rand-utils/blob/513262d1ea7e1e9191092f47cb72185f50754e7b/src/bit-reader.ts#L52)
 
 ***
 
@@ -69,7 +70,7 @@ The shuffleSeed for the data.
 
 #### Defined in
 
-[bit-reader.ts:39](https://github.com/buff-beacon-project/rand-utils/blob/c38a827b147d84a01d6ae6faa071e6ae0f7daca1/src/bit-reader.ts#L39)
+[bit-reader.ts:40](https://github.com/buff-beacon-project/rand-utils/blob/513262d1ea7e1e9191092f47cb72185f50754e7b/src/bit-reader.ts#L40)
 
 ## Methods
 
@@ -89,7 +90,7 @@ Shuffle the provided array in place, modifying it.
 
 #### Defined in
 
-[bit-reader.ts:90](https://github.com/buff-beacon-project/rand-utils/blob/c38a827b147d84a01d6ae6faa071e6ae0f7daca1/src/bit-reader.ts#L90)
+[bit-reader.ts:91](https://github.com/buff-beacon-project/rand-utils/blob/513262d1ea7e1e9191092f47cb72185f50754e7b/src/bit-reader.ts#L91)
 
 ***
 
@@ -111,7 +112,7 @@ Get a DataView of the bits.
 
 #### Defined in
 
-[bit-reader.ts:58](https://github.com/buff-beacon-project/rand-utils/blob/c38a827b147d84a01d6ae6faa071e6ae0f7daca1/src/bit-reader.ts#L58)
+[bit-reader.ts:59](https://github.com/buff-beacon-project/rand-utils/blob/513262d1ea7e1e9191092f47cb72185f50754e7b/src/bit-reader.ts#L59)
 
 ***
 
@@ -131,7 +132,7 @@ Return a shuffled copy of provided array.
 
 #### Defined in
 
-[bit-reader.ts:83](https://github.com/buff-beacon-project/rand-utils/blob/c38a827b147d84a01d6ae6faa071e6ae0f7daca1/src/bit-reader.ts#L83)
+[bit-reader.ts:84](https://github.com/buff-beacon-project/rand-utils/blob/513262d1ea7e1e9191092f47cb72185f50754e7b/src/bit-reader.ts#L84)
 
 ***
 
@@ -151,7 +152,7 @@ Get a BitStream of this data.
 
 #### Defined in
 
-[bit-reader.ts:67](https://github.com/buff-beacon-project/rand-utils/blob/c38a827b147d84a01d6ae6faa071e6ae0f7daca1/src/bit-reader.ts#L67)
+[bit-reader.ts:68](https://github.com/buff-beacon-project/rand-utils/blob/513262d1ea7e1e9191092f47cb72185f50754e7b/src/bit-reader.ts#L68)
 
 ***
 
@@ -183,7 +184,7 @@ const toggles = Array.from(reader.unfold((stream) => stream.readBoolean()))
 
 #### Defined in
 
-[bit-reader.ts:105](https://github.com/buff-beacon-project/rand-utils/blob/c38a827b147d84a01d6ae6faa071e6ae0f7daca1/src/bit-reader.ts#L105)
+[bit-reader.ts:106](https://github.com/buff-beacon-project/rand-utils/blob/513262d1ea7e1e9191092f47cb72185f50754e7b/src/bit-reader.ts#L106)
 
 ***
 
@@ -203,7 +204,7 @@ Get a BitView of this data.
 
 #### Defined in
 
-[bit-reader.ts:76](https://github.com/buff-beacon-project/rand-utils/blob/c38a827b147d84a01d6ae6faa071e6ae0f7daca1/src/bit-reader.ts#L76)
+[bit-reader.ts:77](https://github.com/buff-beacon-project/rand-utils/blob/513262d1ea7e1e9191092f47cb72185f50754e7b/src/bit-reader.ts#L77)
 
 ***
 
@@ -223,4 +224,4 @@ Create a BitReader
 
 #### Defined in
 
-[bit-reader.ts:18](https://github.com/buff-beacon-project/rand-utils/blob/c38a827b147d84a01d6ae6faa071e6ae0f7daca1/src/bit-reader.ts#L18)
+[bit-reader.ts:19](https://github.com/buff-beacon-project/rand-utils/blob/513262d1ea7e1e9191092f47cb72185f50754e7b/src/bit-reader.ts#L19)
