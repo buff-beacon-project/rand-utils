@@ -28,4 +28,4 @@ BitStream to read from
 
 ## Defined in
 
-[random.ts:11](https://github.com/buff-beacon-project/rand-utils/blob/41c6b86a05d8c0890d037f867203f86cf59240f5/src/random.ts#L11)
+[random.ts:11](https://github.com/buff-beacon-project/rand-utils/blob/c38a827b147d84a01d6ae6faa071e6ae0f7daca1/src/random.ts#L11)
