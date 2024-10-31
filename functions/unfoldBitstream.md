@@ -1,8 +1,8 @@
-[**@buff-beacon-project/rand-utils**](../index.md) • **Docs**
+[**@buff-beacon-project/rand-utils**](../README.md) • **Docs**
 
 ***
 
-[@buff-beacon-project/rand-utils](../index.md) / unfoldBitstream
+[@buff-beacon-project/rand-utils](../README.md) / unfoldBitstream
 
 # Function: unfoldBitstream()
 
@@ -34,4 +34,4 @@ Array.from(unfoldBitstream((bs, i) => bs.readBits(8)))
 
 ## Defined in
 
-[util.ts:12](https://github.com/buff-beacon-project/rand-utils/blob/1183a03fc3f4c77ca80bae970c44be1cf57495d0/src/util.ts#L12)
+[util.ts:12](https://github.com/buff-beacon-project/rand-utils/blob/41c6b86a05d8c0890d037f867203f86cf59240f5/src/util.ts#L12)

@@ -1,8 +1,8 @@
-[**@buff-beacon-project/rand-utils**](../index.md) • **Docs**
+[**@buff-beacon-project/rand-utils**](../README.md) • **Docs**
 
 ***
 
-[@buff-beacon-project/rand-utils](../index.md) / getShuffleSeed
+[@buff-beacon-project/rand-utils](../README.md) / getShuffleSeed
 
 # Function: getShuffleSeed()
 
@@ -22,4 +22,4 @@ the size of the returned seed array + 1
 
 ## Defined in
 
-[shuffle.ts:10](https://github.com/buff-beacon-project/rand-utils/blob/1183a03fc3f4c77ca80bae970c44be1cf57495d0/src/shuffle.ts#L10)
+[shuffle.ts:10](https://github.com/buff-beacon-project/rand-utils/blob/41c6b86a05d8c0890d037f867203f86cf59240f5/src/shuffle.ts#L10)

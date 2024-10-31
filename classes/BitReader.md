@@ -1,8 +1,8 @@
-[**@buff-beacon-project/rand-utils**](../index.md) • **Docs**
+[**@buff-beacon-project/rand-utils**](../README.md) • **Docs**
 
 ***
 
-[@buff-beacon-project/rand-utils](../index.md) / BitReader
+[@buff-beacon-project/rand-utils](../README.md) / BitReader
 
 # Class: BitReader
 
@@ -33,7 +33,7 @@ Create a BitReader from an ArrayBuffer
 
 #### Defined in
 
-[bit-reader.ts:27](https://github.com/buff-beacon-project/rand-utils/blob/1183a03fc3f4c77ca80bae970c44be1cf57495d0/src/bit-reader.ts#L27)
+[bit-reader.ts:27](https://github.com/buff-beacon-project/rand-utils/blob/41c6b86a05d8c0890d037f867203f86cf59240f5/src/bit-reader.ts#L27)
 
 ## Accessors
 
@@ -51,7 +51,7 @@ The maximum length of list this instance can shuffle.
 
 #### Defined in
 
-[bit-reader.ts:51](https://github.com/buff-beacon-project/rand-utils/blob/1183a03fc3f4c77ca80bae970c44be1cf57495d0/src/bit-reader.ts#L51)
+[bit-reader.ts:51](https://github.com/buff-beacon-project/rand-utils/blob/41c6b86a05d8c0890d037f867203f86cf59240f5/src/bit-reader.ts#L51)
 
 ***
 
@@ -69,7 +69,7 @@ The shuffleSeed for the data.
 
 #### Defined in
 
-[bit-reader.ts:39](https://github.com/buff-beacon-project/rand-utils/blob/1183a03fc3f4c77ca80bae970c44be1cf57495d0/src/bit-reader.ts#L39)
+[bit-reader.ts:39](https://github.com/buff-beacon-project/rand-utils/blob/41c6b86a05d8c0890d037f867203f86cf59240f5/src/bit-reader.ts#L39)
 
 ## Methods
 
@@ -89,7 +89,7 @@ Shuffle the provided array in place, modifying it.
 
 #### Defined in
 
-[bit-reader.ts:90](https://github.com/buff-beacon-project/rand-utils/blob/1183a03fc3f4c77ca80bae970c44be1cf57495d0/src/bit-reader.ts#L90)
+[bit-reader.ts:90](https://github.com/buff-beacon-project/rand-utils/blob/41c6b86a05d8c0890d037f867203f86cf59240f5/src/bit-reader.ts#L90)
 
 ***
 
@@ -111,7 +111,7 @@ Get a DataView of the bits.
 
 #### Defined in
 
-[bit-reader.ts:58](https://github.com/buff-beacon-project/rand-utils/blob/1183a03fc3f4c77ca80bae970c44be1cf57495d0/src/bit-reader.ts#L58)
+[bit-reader.ts:58](https://github.com/buff-beacon-project/rand-utils/blob/41c6b86a05d8c0890d037f867203f86cf59240f5/src/bit-reader.ts#L58)
 
 ***
 
@@ -131,7 +131,7 @@ Return a shuffled copy of provided array.
 
 #### Defined in
 
-[bit-reader.ts:83](https://github.com/buff-beacon-project/rand-utils/blob/1183a03fc3f4c77ca80bae970c44be1cf57495d0/src/bit-reader.ts#L83)
+[bit-reader.ts:83](https://github.com/buff-beacon-project/rand-utils/blob/41c6b86a05d8c0890d037f867203f86cf59240f5/src/bit-reader.ts#L83)
 
 ***
 
@@ -151,7 +151,7 @@ Get a BitStream of this data.
 
 #### Defined in
 
-[bit-reader.ts:67](https://github.com/buff-beacon-project/rand-utils/blob/1183a03fc3f4c77ca80bae970c44be1cf57495d0/src/bit-reader.ts#L67)
+[bit-reader.ts:67](https://github.com/buff-beacon-project/rand-utils/blob/41c6b86a05d8c0890d037f867203f86cf59240f5/src/bit-reader.ts#L67)
 
 ***
 
@@ -183,7 +183,7 @@ const toggles = Array.from(reader.unfold((stream) => stream.readBoolean()))
 
 #### Defined in
 
-[bit-reader.ts:105](https://github.com/buff-beacon-project/rand-utils/blob/1183a03fc3f4c77ca80bae970c44be1cf57495d0/src/bit-reader.ts#L105)
+[bit-reader.ts:105](https://github.com/buff-beacon-project/rand-utils/blob/41c6b86a05d8c0890d037f867203f86cf59240f5/src/bit-reader.ts#L105)
 
 ***
 
@@ -203,7 +203,7 @@ Get a BitView of this data.
 
 #### Defined in
 
-[bit-reader.ts:76](https://github.com/buff-beacon-project/rand-utils/blob/1183a03fc3f4c77ca80bae970c44be1cf57495d0/src/bit-reader.ts#L76)
+[bit-reader.ts:76](https://github.com/buff-beacon-project/rand-utils/blob/41c6b86a05d8c0890d037f867203f86cf59240f5/src/bit-reader.ts#L76)
 
 ***
 
@@ -223,4 +223,4 @@ Create a BitReader
 
 #### Defined in
 
-[bit-reader.ts:18](https://github.com/buff-beacon-project/rand-utils/blob/1183a03fc3f4c77ca80bae970c44be1cf57495d0/src/bit-reader.ts#L18)
+[bit-reader.ts:18](https://github.com/buff-beacon-project/rand-utils/blob/41c6b86a05d8c0890d037f867203f86cf59240f5/src/bit-reader.ts#L18)

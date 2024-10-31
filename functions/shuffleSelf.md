@@ -1,8 +1,8 @@
-[**@buff-beacon-project/rand-utils**](../index.md) • **Docs**
+[**@buff-beacon-project/rand-utils**](../README.md) • **Docs**
 
 ***
 
-[@buff-beacon-project/rand-utils](../index.md) / shuffleSelf
+[@buff-beacon-project/rand-utils](../README.md) / shuffleSelf
 
 # Function: shuffleSelf()
 
@@ -26,4 +26,4 @@ Shuffle provided array **in place** using the given shuffle seed.
 
 ## Defined in
 
-[shuffle.ts:26](https://github.com/buff-beacon-project/rand-utils/blob/1183a03fc3f4c77ca80bae970c44be1cf57495d0/src/shuffle.ts#L26)
+[shuffle.ts:26](https://github.com/buff-beacon-project/rand-utils/blob/41c6b86a05d8c0890d037f867203f86cf59240f5/src/shuffle.ts#L26)
