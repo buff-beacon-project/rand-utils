@@ -14,7 +14,7 @@
     "notDocumented": true
   },
   "readme": "none",
-  "entryFileName": "index.md",
+  "entryFileName": "README.md",
   "out": "./docs/",
   "exclude": ["*.test.ts"],
   "plugin": ["typedoc-plugin-markdown"],
