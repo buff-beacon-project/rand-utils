@@ -49,7 +49,7 @@ jobs:
       - uses: googleapis/release-please-action@v4
         id: release
         with:
-          release-type: npm
+          release-type: node
 
   # publish:
   #   name: Publish to npm
