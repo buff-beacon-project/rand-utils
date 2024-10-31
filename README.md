@@ -31,4 +31,4 @@ const shuffled = reader.shuffled(arr)
 
 ## Documentation
 
-Found in the [docs/](./docs) folder.
+[API Documentation](https://curby.gitbook.io/rand-utils/)
