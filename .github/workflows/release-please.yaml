@@ -51,6 +51,18 @@ jobs:
         with:
           release-type: node
 
+  publish:
+    name: Publish to npm
+    needs: release-please
+    if: ${{ needs.release-please.outputs.created == 'true' }}
+    uses: ./.github/workflows/release.yaml
+
+  docs:
+    name: Build Docs
+    needs: release-please
+    if: ${{ needs.release-please.outputs.created == 'true' }}
+    uses: ./.github/workflows/docs.yaml
+
   # publish:
   #   name: Publish to npm
 
